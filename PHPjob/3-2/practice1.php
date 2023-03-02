@@ -1,17 +1,17 @@
 <?php
 $fruits=["りんご"=>"100","みかん"=>"50","もも"=>"300"]; 
+$num=[3,3,10];
+$i=0;
 
-function pay($count, $value) {
-      $total = $count * $value;
+function pay($value,$num) {
+      $total = $value * $num;
       return $total; 
 }
-pay(3,100);
-pay(3,50);
-pay(10,300);
-    
+
 foreach($fruits as $key=>$value){
-      print $key.'は'.$total. '円です。';
-      echo '<br>';
+      $total = pay($value,$num[$i]);
+      echo $key.'は'.$total. '円です。<br>';
+      $i ++ ;
 }
 
 ?>
