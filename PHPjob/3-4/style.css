@@ -1,0 +1,36 @@
+
+body {
+  background-color: rgb(90, 92, 93);
+  margin: 0auto;
+}
+
+h1 {
+  font-size:30px;
+  font-family: serif;
+  color:white;
+  text-align: center;
+  border-bottom: 5px solid #f6f8f9;
+  margin-top: 100px;
+}
+    
+.class1{
+  text-align: center;
+  margin-top: 50px;
+}   
+
+.button{
+  border-radius : 10%; 
+  font-weight: bold;
+}
+
+.class2{
+  font-family: serif;
+  color:white;
+  text-align: center;
+}
+
+.class3{
+  font-family: serif;
+  color:white;
+  text-align: center;
+}
