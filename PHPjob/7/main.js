@@ -1,16 +1,15 @@
 //問1
 let numbers = [2, 5, 12, 13, 15, 18, 22];
-    
-function isEven(num) {
-    return num % 2 === 0;
-}
 
-for (let i=0; i<numbers.length; i++){
-    let num = numbers[i];
-    if (isEven(num)){
-        console.log(num + 'は偶数です');
+let num = numbers.filter(x => x % 2 === 0);
+
+console.log(num);
+
+function isEven(){
+    console.log(num + 'は偶数です');   
     }
-}
+
+
 
 
 //問2
